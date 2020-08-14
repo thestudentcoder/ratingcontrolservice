@@ -1,0 +1,8 @@
+spring:
+  h2:
+    console:
+      enabled: true
+
+api:
+  bookService:
+    endpoint: 'https://my-third-party.service.com/fetch/book/rating/'
